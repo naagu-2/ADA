@@ -22,14 +22,14 @@ def main():
         k=int(input())
         if k==1 and x==1:
             print("yes it is",end='')
-            print(color[0],end='')
-            print("and color is",end='')
             print(database[0])
+            print("and color is",end='')
+            print(color[0],end='')            
         elif k==2 and x==2:
             print("yes it is",end='')
-            print(color[1],end='')
+            print(database[1])            
             print(" color and will",end='')
-            print(database[1])
+            print(color[1],end='')
         else:
             print("\n  invalid  db",end='')
 if __name__=="__main__":
